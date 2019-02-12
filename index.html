@@ -29,7 +29,7 @@
 
 <div id="mapid"></div>
 <script>
-	var mymap = L.map('mapid').setView([44.5093, -64.2700], 15);
+	var mymap = L.map('mapid').setView([44.510132, -64.27547], 15);
 
 	// create the tile layer with correct attribution
 	/*var osmUrl='https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
@@ -46,7 +46,7 @@
 	L.marker([44.5130,-64.2885]).addTo(mymap)
 		.bindPopup("<b>Money Pit</b><br />Supposed!").openPopup();
 
-	L.circle([44.5130,-64.2885], 500, {
+	L.circle([44.5130,-64.2885], 15, {
 		color: 'red',
 		fillColor: '#f03',
 		fillOpacity: 0.5
